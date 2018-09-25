@@ -1,0 +1,66 @@
+form{display:inline;}
+.subtitle{
+    text-align:center;
+    font-family:Trebuchet;
+    font-size:xx-large;
+}
+#gestion{
+    text-align:center;
+}
+.gestion{
+    text-align:center;
+}
+body{
+    font-family:sans-serif;
+}
+
+.center{
+    text-align:center;
+    letter-spacing:8px;
+}
+
+#titre{
+    font-family:Trebuchet;
+    text-align:center;
+    width:100%;
+    letter-spacing:8px;
+    cursor:pointer;
+}
+nav{
+    margin-left:10px;
+    word-spacing:20px;
+    text-align:center;
+    letter-spacing:2px;
+}
+#editeur{
+    border:solid black 1px;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+}
+#index{
+    margin-top:70px;
+    text-align:center;
+}
+#formArticle{
+    font-size:125%;
+    color:#505050;
+    Line-Height:1.5;
+    width: 600px;
+    margin:auto;
+}
+.notes{
+    font-size:90%;
+    border-style: none;
+    font-weight:normal;
+}
+.notes:focus{
+    outline:0;
+}
+#toolbar{
+    position: fixed;
+    float:left;
+}
+td{
+    text-align:center;
+}

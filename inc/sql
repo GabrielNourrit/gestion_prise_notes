@@ -1,0 +1,94 @@
+SET foreign_key_checks=0;
+
+CREATE TABLE matiere(
+nom varchar(30),
+surnom varchar(15),
+semestre tinyint,
+type varchar(4)
+
+)ENGINE=InnoDb;
+                               
+CREATE TABLE Management_SI(
+id int auto_increment,
+contenu longtext,
+primary key(id)
+)ENGINE=InnoDb;
+CREATE TABLE Management_SI_TD(
+                            id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;                               
+CREATE TABLE Gestion_commerciale(
+                            id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;                               
+CREATE TABLE Gestion_commerciale_TD(
+                            id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE logiciels_him(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+                               
+CREATE TABLE logiciels_him_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;   
+CREATE TABLE Archi(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+                               
+CREATE TABLE Archi_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;                               
+CREATE TABLE Systeme(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;                               
+CREATE TABLE Systeme_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Reseaux(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Reseaux_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Recherche_op(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Recherche_op_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Langages_web(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+CREATE TABLE Langages_web_TD(
+                                id int auto_increment,
+                               contenu longtext,
+                               primary key(id)
+                               )ENGINE=InnoDb;
+                               
+SET foreign_key_checks=1;
